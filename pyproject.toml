@@ -1,0 +1,12 @@
+[project]
+name = "material-analysis"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "aiomysql>=0.3.2",
+    "fastapi>=0.162.0",
+    "openpyxl>=3.1.5",
+    "pydantic>=2.14.2",
+    "pydantic-settings>=2.16.2",
+    "sqlalchemy[asyncio]==2.1.8",
+]
